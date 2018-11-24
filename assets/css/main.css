@@ -1,0 +1,41 @@
+#video-home-section{
+	background: #a9e9f5;
+	min-height: 700px;
+}
+
+.kit-home-section{
+	background: #3af47d;
+}
+
+.slideInfo{
+	min-height: 400px;
+	background: #61dbf3;
+	color: white;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.slideExperto{
+	min-height: 400px;
+	background: #ffecec;
+	color: #bbb8bd;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.card-plans{
+	border:2px solid #fbd304;
+}
+
+.title-plans{
+	font-size: 20px;
+}
+
+.card-plan-middle{
+	background: #fd857c;
+}
+
+footer{
+	background: #9bc249;
+}
+
