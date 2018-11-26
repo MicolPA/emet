@@ -31,10 +31,10 @@
         </div>
       </div>
     </div>
-    <div class="d-flex flex-column flex-md-row align-items-center pt-3 pb-3 pl-5 pr-5 px-md-4 bg-green box-shadow">
+    <div class="d-flex flex-column flex-md-row align-items-center pt-3 pb-3 pl-5 pr-5 px-md-4 bg-red box-shadow">
+
       <a class="mr-md-auto font-weight-normal pb-2"><img src="<?php echo base_url('assets/images/emet-logo-blanco.png') ?>" width='120px'></a>
 
-      <a id="btnIniciarSesionModal" class="btn btn-outline-white pr-3 pl-3 btn-r mr-5" data-toggle="modal" data-target="#iniciarSesionModal" href="#!">INICIAR SESIÓN</a>
       <a class="navbar-toggler text-white" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars display-5 text-white"></i></a>
 
     </div>
@@ -89,7 +89,7 @@
     </div>
   </div>
 </div>
-<footer class="text-white pt-5">
+<footer class="footer text-white pt-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-4">
