@@ -15,11 +15,20 @@
 }
 
 .input-pink{
-    border:1px solid #ff756b;
+    border:1.5px solid #ff756b;
 }
+
+.input-blue{
+    border:1.5px solid #61dbf3;
+}
+
 
 .text-red{
 	color: #ff756b;
+}
+
+.text-dblue{
+  color: #1ca9f8;
 }
 
 .text-blue{
