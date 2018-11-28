@@ -12,6 +12,7 @@ class Auth extends CI_Controller{
 
 	public function register(){
 
+		$data['title'] = 'Creando perfil';
 		$data['view'] = 'auth/register-profile';
 		$this->load->view('home/template', $data);
 		
