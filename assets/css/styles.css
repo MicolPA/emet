@@ -4,14 +4,43 @@
 }
 
 .bg-green {
-  background-color: #18ebb5 !important;
+  background-color: #18ebb5;
 }
+
+.bg-green:hover {
+  background-color: #01d49e;
+}
+
 .bg-dgreen {
-  background-color: #01d49e !important;
+  background-color: #01d49e;
 }
 
 .bg-red{
   background: #ff756b;
+}
+
+.bg-red:hover{
+  background: #ff6358;
+}
+
+.bg-blue{
+  background: #61dbf3;
+}
+
+.bg-blue:hover{
+  background: #27d2f4;
+}
+
+.bg-pink{
+  background: #fe4875;
+}
+
+.bg-pink:hover{
+  background: #ff3769;
+}
+
+.bg-dpink{
+  background: #ff3769;
 }
 
 .input-pink{
@@ -49,6 +78,10 @@
 
 .small{
 	font-size: 10px;
+}
+
+.non-style-link:hover{
+  text-decoration: none;
 }
 
 .btn-yellow{
@@ -92,4 +125,10 @@
   font-size: 0.5rem;
   font-weight: 300;
   line-height: 1.2;
+}
+
+.shadow-blue{
+  box-shadow:2px 2px 5px 2px #61dbf3;
+  -webkit-box-shadow:2px 2px 5px 2px #61dbf3;
+  -moz-box-shadow:2px 2px 5px 2px #61dbf3;
 }

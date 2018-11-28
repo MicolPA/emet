@@ -35,6 +35,32 @@
 	background: #fd857c;
 }
 
+.div-border{
+	
+	border-radius:5px;
+	border:1px solid #ccc;
+	margin-top: 10px;
+
+
+}
+
+.div-bottom-blue{
+	border-bottom: 5px solid #61dbf3; 
+	border-radius:3px;
+}
+.div-bottom-pink{
+	border-bottom: 5px solid #fe4875; 
+	border-radius:3px;
+}
+.div-bottom-green{
+	border-bottom: 5px solid #01d49e; 
+	border-radius:3px;
+}
+.div-bottom-red{
+	border-bottom: 5px solid #ff756b; 
+	border-radius:3px;
+}
+
 footer{
 	background: #9bc249;
 }

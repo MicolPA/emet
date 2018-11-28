@@ -6,6 +6,7 @@ class Admin extends CI_Controller {
 	public function __construct(){
 
 		parent::__construct();
+		$this->load->model('Admin_model');
 	}	
 
 
@@ -13,6 +14,14 @@ class Admin extends CI_Controller {
 	{	
 		$data['view'] = 'admin/home';
 		$data['title'] = 'Inicio';
+
+		$this->load->view('admin/template', $data);
+	}
+
+	public function videos(){
+
+		$data['view'] = 'admin/videos-home';
+		$data['title'] = 'videos';
 
 		$this->load->view('admin/template', $data);
 	}

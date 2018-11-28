@@ -6,3 +6,7 @@ $('#ShowBabyProfile').click(function(){
 	$("#BabyProfile").removeClass('d-none');
 	$("#saveProfile").removeClass('d-none');
 });
+
+
+
+
