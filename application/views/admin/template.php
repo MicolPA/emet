@@ -20,8 +20,16 @@
              <i class="fas fa-bars display-5 text-white"></i>
             </button>
             <a class="pb-1"><img src="<?php echo base_url('assets/images/emet-logo-blanco.png') ?>" width='120px'></a>
+            <div class="dropdown show">
+              <a class="non-style-link text-white dropdown-toggle" href="#" role="button" id="profileDropdown" data-toggle="dropdown" >
+                <span class="display-6"><i class="fas fa-user-circle pr-1"></i> Juana</span>
+              </a>
 
-            <span class="text-white display-6"><i class="fas fa-user-circle pr-1"></i> Juana</span>
+              <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt pr-1"></i> Cerrar sesión</a>
+              </div>
+            </div>
+            
 
         </div>
       </div>

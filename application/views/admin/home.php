@@ -31,7 +31,7 @@
 		</a>
 	</div>
 	<div class="col-lg-3">
-		<a class='non-style-link' href="">
+		<a class='non-style-link' href="<?php echo base_url('admin/user/') ?>">
 			<div class="bg-red text-center text-white p-5">
 				<i class="fas fa-user display-5 pb-2"></i>
 				<p class="display-6 font-weight-bold">Usuarios</p>
