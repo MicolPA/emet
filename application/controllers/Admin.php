@@ -41,4 +41,12 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/template', $data);
 	}
 
+	public function user_detail(){
+		$data['view'] = 'admin/user/detail';
+		$data['title'] = 'Usuarios';
+
+		$this->load->view('admin/template', $data);
+
+	}
+
 }

@@ -1,4 +1,4 @@
-<div class="row mb-3 mt-5">
+<div class="row mb-3 mt-3">
 	<div class="col-lg-12">
 		<div class=" text-center mb-3 p-3 display-6 font-weight-bold shadow-blue">
 			<span class="">Nuevo video</span>
@@ -40,7 +40,7 @@
 		    	<textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
 		  	</div>
 		  	<div class="form-group">
-		    	<label class="font-weight-bold text-red" for="exampleInputEmail1">Titulo de la canción</label>
+		    	<label class="font-weight-bold text-red" for="exampleInputEmail1">Video</label>
 		    	<input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introducir titulo de la canción">
 		  	</div>
 
