@@ -24,4 +24,11 @@ class Home extends CI_Controller {
 
 		$this->load->view('home/template', $data);
 	}
+	public function profile()
+	{	
+		$data['view'] = 'home/profile';
+		$data['title'] = 'Mi perfil';
+
+		$this->load->view('home/template', $data);
+	}
 }
