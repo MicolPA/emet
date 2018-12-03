@@ -43,6 +43,10 @@
   background: #ff3769;
 }
 
+.bg-gray{
+  background:#ccc;
+}
+
 .input-pink{
     border:1.5px solid #ff756b;
 }

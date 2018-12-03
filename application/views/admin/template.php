@@ -62,7 +62,7 @@
 
 
 
-  <footer class="bg-dark text-white pt-5">
+  <footer class="bg-dark text-white text-center pt-5">
     EMET
   </footer>
 

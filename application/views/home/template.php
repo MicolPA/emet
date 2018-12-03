@@ -47,7 +47,7 @@
 
 
 <?php if (!isset($this->session->creatingProfile)): ?>
-  <footer class="footer text-white pt-5">
+  <footer class="footer text-white pt-5" id="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
