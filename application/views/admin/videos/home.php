@@ -7,7 +7,7 @@
 </div>
 <div class="row mb-5">
 	<div class="col-lg-3">
-		<a class='non-style-link' href="<?php echo base_url('admin/nuevo_video') ?>">
+		<a class='non-style-link' href="<?php echo base_url('admin/new_video') ?>">
 			<div class="bg-pink text-center text-white display-6 font-weight-bold pb-1 pt-1">
 				<i class="fas fa-plus pr-2"></i>Nuevo video
 			</div>

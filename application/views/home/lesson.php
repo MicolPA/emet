@@ -4,8 +4,8 @@
 			<span class="text-muted">Actividad 2 </span>
 			<p class="display-6 font-weight-bold text-red">Aprendiendo a estimular</p>
 			<video width="100%" controls>
-			  <source src="mov_bbb.mp4" type="video/mp4">
-			  <source src="mov_bbb.ogg" type="video/ogg">
+			  <source src="video.mp4" type="video/mp4">
+			  <source src="video.ogg" type="video/ogg">
 			  Your browser does not support HTML5 video.
 			</video>
 			<div class="row">

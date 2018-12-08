@@ -25,10 +25,18 @@ class Admin extends CI_Controller {
 
 		$this->load->view('admin/template', $data);
 	}
-	public function nuevo_video(){
+	public function new_video(){
 
 		$data['view'] = 'admin/videos/nuevo';
 		$data['title'] = 'Nuevo video';
+
+		$this->load->view('admin/template', $data);
+	}
+
+	public function songs(){
+
+		$data['view'] = 'admin/songs/home';
+		$data['title'] = 'Canciones';
 
 		$this->load->view('admin/template', $data);
 	}

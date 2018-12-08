@@ -131,8 +131,23 @@
   line-height: 1.2;
 }
 
+.my-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.my-shadow:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.45);
+}
+
 .shadow-blue{
   box-shadow:2px 2px 5px 2px #61dbf3;
   -webkit-box-shadow:2px 2px 5px 2px #61dbf3;
   -moz-box-shadow:2px 2px 5px 2px #61dbf3;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .imgRegister {
+        display: none;
+    }
 }

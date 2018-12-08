@@ -15,7 +15,7 @@
 		</a>
 	</div>
 	<div class="col-lg-3">
-		<a class='non-style-link' href="">
+		<a class='non-style-link' href="<?php echo base_url('admin/songs') ?>">
 			<div class="bg-blue text-center text-white p-5">
 				<i class="fas fa-music display-5 pb-2"></i>
 				<p class="display-6 font-weight-bold">Canciones</p>

@@ -73,9 +73,9 @@ body {
   margin-bottom: 60px; /* Margin bottom by footer height */
 }
 footer {
-  position: absolute;
+  /*position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100%;*/
 }
 
 

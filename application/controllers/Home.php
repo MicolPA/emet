@@ -24,6 +24,15 @@ class Home extends CI_Controller {
 
 		$this->load->view('home/template', $data);
 	}
+
+	public function songs(){
+
+		$data['view'] = 'home/songs';
+		$data['title'] = 'Canciones';
+
+		$this->load->view('home/template', $data);
+	}
+
 	public function profile()
 	{	
 		$data['view'] = 'home/profile';
